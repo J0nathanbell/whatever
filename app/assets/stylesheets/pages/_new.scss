@@ -6,12 +6,17 @@
   flex-direction: column;
 }
 input.btn {
+  margin-top: 15px;
   color: white;
   background-color: brown;
 }
 
 .form-inputs {
   width: 40rem;
+}
+
+label{
+  margin: 15px 0px 15px 0px;
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {

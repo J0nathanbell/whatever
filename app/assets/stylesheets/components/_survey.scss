@@ -1,7 +1,20 @@
+.container{
+  overflow: hidden;
+  width: 100%;
+  // margin: 0px 10px;
+}
+
+.bannerimage{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .survey-container {
   margin: 0 auto;
   margin-left: 20px;
   margin-right: 20px;
+  width: 100%;
 }
 
 .survey-title {
@@ -9,16 +22,26 @@
   color: $white;
 }
 
+i{
+  height: 30px;
+  margin-bottom: 0px;
+}
 .survey-header {
     font-size: 25px;
     color: $white;
+    height: 30px;
   }
+.survey-header-arrow {
+  margin-bottom: 0px;
+}
+
 
 .genres {
-  width: 1375px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 .checkbox {
   // position: absolute;
@@ -28,21 +51,18 @@
   overflow: hidden;
 }
 .checkbox + label {
-  width: 260px;
+  width: 210px;
   height: 135px;
   font-size: 0px;
   background-color: #f8f7f2;
-  // color: #810000;
   cursor:pointer;
   background-repeat: no-repeat;
   background-size: cover;
-  // text-align: center;
-  // padding-top: 70px;
   border-radius: 10px;
-  // font-size: 40px;
   margin-bottom: 20px;
-  // margin-right: 5px;
 }
+
+
 .fantasy + label {
   background-image: asset_url('fantasy.png') !important;
 }
@@ -105,6 +125,7 @@
 }
 .adventure + label {
   background-image: asset_url('adventure.png') !important;
+
 }
 .adventure + label:hover {
   border: 3px solid #810000;
@@ -228,7 +249,7 @@
   border-radius: 10px;
   padding-top: 35px;
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
   transform: scale(87%);
   border: 3px solid #810000;
 }
@@ -237,6 +258,9 @@
   margin: 0 auto;
   margin-top: 40px;
   text-align: center;
+  h3{
+    margin-bottom: 20px;
+  }
 }
 .submit-btn {
   margin: 0 auto;
