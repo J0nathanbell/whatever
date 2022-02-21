@@ -7,7 +7,7 @@
 
   <h1 class="survey-title">Welcome to your movie finding journey!</h1>
   <h3 class="survey-header">1. Select your favourite movie genres <i class="fas fa-hand-pointer"></i><br></h3>
-  <h3 class="survey-header"><i class="fas fa-angle-double-down" style="margin-bottom: 25px;"></i></h3>
+  <h3 class="survey-header-arrow"><i class="fas fa-angle-double-down"></i></h3>
   <%= form_for :otp , url:otp_path do |f| %>
   <div class="genres">
     <%= f.check_box :Fantasy, {class: 'checkbox fantasy'}, 'Fantasy', false %>
@@ -94,7 +94,6 @@
   <br>
   <br>
   <br>
-  <br>
  <div class="container">
  <h3 class="survey-header">4. Filter food based on diet and intolerances <i class="fas fa-sort"></i></h3>
  <br>
@@ -122,7 +121,7 @@
 
 </div>
 
-<div style="width: 100vw; margin-top: 50px;" class="footer">
+<div style="width: 100vw; margin-top: 50px; background-color: transparent;" class="footer">
   <p><a href="https://twitter.com/watch_whatever"><i class="fab fa-twitter-square"></i></a></p>
   <p><span class="smaller">© 2021 Whatever, Inc.</span></p>
 </div>
